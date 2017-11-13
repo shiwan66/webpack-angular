@@ -18,4 +18,4 @@ RUN echo "docker:x:${dockerGid}:jenkins" >> /etc/group \
     && rm -rf "node-v$NODE_VERSION-linux-x64.tar"
 
 
-USER jenkins
+USER jenkins 
